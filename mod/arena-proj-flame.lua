@@ -13,11 +13,11 @@ function bhv_arena_child_flame_init(obj)
     end
     obj.oGraphYOffset = 30
 
-    obj.hitboxRadius = 25
+    obj.hitboxRadius = 30
     obj.hitboxHeight = 10
     obj.hitboxDownOffset = 0
 
-    obj.hurtboxRadius = 25
+    obj.hurtboxRadius = 30
     obj.hurtboxHeight = 10
 
     obj.oWallHitboxRadius = 50
@@ -77,12 +77,12 @@ function bhv_arena_flame_init(obj)
     end
     obj.oGraphYOffset = 30
 
-    obj.hitboxRadius = 50
-    obj.hitboxHeight = 25
+    obj.hitboxRadius = 75
+    obj.hitboxHeight = 30
     obj.hitboxDownOffset = 25
 
-    obj.hurtboxRadius = 50
-    obj.hurtboxHeight = 25
+    obj.hurtboxRadius = 75
+    obj.hurtboxHeight = 30
 
     obj.oWallHitboxRadius = 100
     obj.oGravity = -400 / 100
@@ -149,7 +149,7 @@ function bhv_arena_flame_loop(obj)
     if target ~= nil then
         -- aim toward target
         local targetYaw = atan2s(target.pos.z - pos.z, target.pos.x - pos.x)
-        obj.oMoveAngleYaw = approach_s16_symmetric(obj.oMoveAngleYaw, targetYaw, 0x100)
+        obj.oMoveAngleYaw = approach_s16_symmetric(obj.oMoveAngleYaw, targetYaw, 0x110)
 
         -- jump
         local floorDiff = obj.oFloorHeight - obj.oPosY

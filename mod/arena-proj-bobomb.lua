@@ -95,7 +95,7 @@ function bhv_arena_bobomb_thrown_loop(obj)
             end
         end
     end
-    
+
     spawn_mist_advanced(obj, 2, 3, 1, 70)
 
     local info = collision_find_surface_on_ray(
@@ -103,7 +103,7 @@ function bhv_arena_bobomb_thrown_loop(obj)
             dir.x, dir.y, dir.z)
 
     local floorHeight = find_floor_height(obj.oPosX, obj.oPosY + 100, obj.oPosZ)
-            
+
     if obj.oTimer > 30 * 1 or info.surface ~= nil or obj.oPosY < floorHeight then
         bhv_arena_bobomb_expode(obj)
         return

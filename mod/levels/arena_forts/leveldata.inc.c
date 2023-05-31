@@ -1,0 +1,5 @@
+#include "levels/arena_forts/texture_include.inc.c"
+#include "levels/arena_forts/area_1/collision.inc.c"
+#include "levels/arena_forts/area_1/macro.inc.c"
+#include "levels/arena_forts/area_1/spline.inc.c"
+#include "levels/arena_forts/model.inc.c"

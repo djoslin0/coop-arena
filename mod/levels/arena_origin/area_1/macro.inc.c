@@ -1,0 +1,4 @@
+const MacroObject arena_origin_area_1_macro_objs[] = {
+	MACRO_OBJECT_END(),
+};
+
