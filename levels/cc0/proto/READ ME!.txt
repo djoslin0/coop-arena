@@ -1,0 +1,19 @@
+Thank you for downloading this collection of free prototyping textures. They were made for designing low poly, retro-style videogames (90s shooters, Nintendo 64, PlayStation 1, and so on). You can use them for any purpose, really.
+
+There are some textures included with this pack which may confuse some people, so I'll explain them here:
+
+Prototype_transparent_32x32px: Just the lines with no colour background. Could be useful for making grids or measuring units in a scene.
+
+Prototype_water_32x32px: Placeholder water texture (until you find or make a better one).
+
+Prototype_trigger_32x32px: A texture used for trigger volumes. For example, a box the player character walks into which closes the door they just passed through, or a cutscene. The Source engine, used to make Half-Life 2, uses a similar texture for trigger volumes. The texture is only for checking where the volume is, making it easier to spot.
+
+Prototype_symbol_no_32x32px: A "no" symbol. No access, no entry, etc. Intended for use as an invisible walls to doorways or areas the player character last visited.
+
+Prototype_symbol_cross_32x32px: A cross symbol. A texture for invisible walls, used to see where the edge of a level is. I recommend using this texture on invisible walls the player cannot cross. For example, the empty space above a wire fence the player might just try to jump over.
+
+Prototype_symbol_skull_32x32px: A skull symbol. A texture for death walls or death floors. For example, if the player falls off the floating island platform, upon touching the volume with the skull on it, die instantly.
+
+Prototype_texture_atlas_32x32px: A texture atlas containing all the textures in a single image. This atlas can be used as a tileset the same way some PlayStation 1 games did.
+
+All textures were made by Emerald Eel. Licenced under CC0 / Public Domain. Credit is not necessary, but appreciated.
