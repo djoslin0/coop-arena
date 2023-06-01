@@ -3,18 +3,16 @@ ACT_LADDER = allocate_mario_action(ACT_GROUP_AIRBORNE | ACT_FLAG_AIR)
 
 -- behavior params:
 
--- ladder height|ladder orientation (0..3)
--- ex:  13881 <--
--- height^^|| orientation
--- 1388    .. 1
+-- ladder height
+-- ex:  1388
+-- object yaw = ladder yaw
 
 local sLadderClimb = 0
 
 ---@param obj Object
 function bhv_arena_ladder_init(obj)
     obj.hitboxRadius = 40
-    obj.hitboxHeight = math.floor(obj.oBehParams * 0.1)
-    obj.oFaceAngleYaw = (obj.oBehParams - math.floor(obj.oBehParams * 0.1) * 10) * 16384 - 32768
+    obj.hitboxHeight = obj.oBehParams
 end
 
 id_bhvArenaLadder = hook_behavior(nil, OBJ_LIST_LEVEL, true, bhv_arena_ladder_init, nil)
@@ -23,7 +21,7 @@ id_bhvArenaLadder = hook_behavior(nil, OBJ_LIST_LEVEL, true, bhv_arena_ladder_in
 function mario_check_for_ladder(m)
     local ladder = obj_get_nearest_object_with_behavior_id(m.marioObj, id_bhvArenaLadder)
     if ladder == nil then return end
-    if m.action & ACT_FLAG_ATTACKING ~= 0 and lateral_dist_between_objects(m.marioObj, ladder) < ladder.hitboxRadius + m.marioObj.hitboxRadius and m.pos.y < ladder.oPosY + ladder.hitboxHeight and m.pos.y > ladder.oPosY then
+    if m.action & ACT_FLAG_ATTACKING ~= 0 and lateral_dist_between_objects(m.marioObj, ladder) < ladder.hitboxRadius + m.marioObj.hitboxRadius and m.pos.y < ladder.oPosY + ladder.hitboxHeight and m.pos.y + m.marioObj.hitboxHeight > ladder.oPosY then
         set_mario_action(m, ACT_LADDER, 0)
     end
 end
