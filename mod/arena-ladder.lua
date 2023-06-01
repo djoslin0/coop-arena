@@ -1,6 +1,5 @@
 ACT_LADDER = allocate_mario_action(ACT_GROUP_AIRBORNE | ACT_FLAG_AIR)
 
-
 -- behavior params:
 
 -- ladder height
@@ -23,12 +22,13 @@ function mario_check_for_ladder(m)
     if ladder == nil then return end
     if m.action & ACT_FLAG_ATTACKING ~= 0 and lateral_dist_between_objects(m.marioObj, ladder) < ladder.hitboxRadius + m.marioObj.hitboxRadius and m.pos.y < ladder.oPosY + ladder.hitboxHeight and m.pos.y + m.marioObj.hitboxHeight > ladder.oPosY then
         set_mario_action(m, ACT_LADDER, 0)
+        gMarioStateExtras[m.playerIndex].ladder = ladder
     end
 end
 
 ---@param m MarioState
 function act_ladder(m)
-    local ladder = obj_get_nearest_object_with_behavior_id(m.marioObj, id_bhvArenaLadder)
+    local ladder = gMarioStateExtras[m.playerIndex].ladder
 
     m.vel.x = 0
     m.vel.y = 0
@@ -65,6 +65,7 @@ function act_ladder(m)
     if (m.input & (INPUT_A_PRESSED | INPUT_B_PRESSED)) ~= 0 then
         set_mario_action(m,ACT_FREEFALL,0)
         m.vel.y = m.controller.rawStickY * 0.2
+        gMarioStateExtras[m.playerIndex].ladder = nil
     end
 end
 
