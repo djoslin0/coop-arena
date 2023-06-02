@@ -20,11 +20,11 @@ id_bhvArenaLadder = hook_behavior(nil, OBJ_LIST_LEVEL, true, bhv_arena_ladder_in
 
 ---@param m MarioState
 function mario_check_for_ladder(m)
-    if #ladders == 0 then return end
+    if not (m.action & ACT_FLAG_ATTACKING ~= 0) or #ladders == 0 then return end
     for i, ladder in pairs(ladders) do
-        if m.action & ACT_FLAG_ATTACKING ~= 0 and lateral_dist_between_objects(m.marioObj, ladder) < ladder.hitboxRadius + m.marioObj.hitboxRadius and m.pos.y < ladder.oPosY + ladder.hitboxHeight and m.pos.y + m.marioObj.hitboxHeight > ladder.oPosY then
-            set_mario_action(m, ACT_LADDER, 0)
+        if lateral_dist_between_objects(m.marioObj, ladder) < ladder.hitboxRadius + m.marioObj.hitboxRadius and m.pos.y < ladder.oPosY + ladder.hitboxHeight and m.pos.y + m.marioObj.hitboxHeight > ladder.oPosY then
             gMarioStateExtras[m.playerIndex].ladder = ladder
+            set_mario_action(m, ACT_LADDER, 0)
         end
     end
 end
