@@ -83,8 +83,9 @@ function act_ladder(m)
         end
         if m.controller.rawStickY > 64 then
             set_mario_action(m,ACT_FORWARD_ROLLOUT,0)
-            m.forwardVel = 8
+            m.forwardVel = 10
             m.vel.y = 10
+            return
         end
         set_mario_action(m,ACT_WALL_KICK_AIR,0)
         m.faceAngle.y = m.faceAngle.y + 32768
