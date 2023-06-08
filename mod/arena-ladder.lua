@@ -28,7 +28,7 @@ id_bhvArenaLadder = hook_behavior(nil, OBJ_LIST_LEVEL, true, bhv_arena_ladder_in
 ---@param m MarioState
 function mario_check_for_ladder(m)
     if m.action == ACT_FORWARD_ROLLOUT and m.prevAction == ACT_LADDER then
-        m.forwardVel = 8
+        m.forwardVel = 10
     end
     if not (m.action & ACT_FLAG_ATTACKING ~= 0) or #ladders == 0 or m.action == ACT_LADDER then return end
     for i, ladder in pairs(ladders) do
@@ -77,9 +77,14 @@ function act_ladder(m)
         if math.abs(m.controller.rawStickX) > 64 then
             set_mario_action(m,ACT_FORWARD_ROLLOUT,0)
             m.faceAngle.y = m.faceAngle.y - 16384*math.abs(x)/x
-            m.forwardVel = 8
+            m.forwardVel = 10
             m.vel.y = 10
             return
+        end
+        if m.controller.rawStickY > 64 then
+            set_mario_action(m,ACT_FORWARD_ROLLOUT,0)
+            m.forwardVel = 8
+            m.vel.y = 10
         end
         set_mario_action(m,ACT_WALL_KICK_AIR,0)
         m.faceAngle.y = m.faceAngle.y + 32768
