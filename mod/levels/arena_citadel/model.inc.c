@@ -1,7 +1,3 @@
-Lights1 arena_citadel_dl_rim_002_lights = gdSPDefLights1(
-	0x7F, 0x7F, 0x7F,
-	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
-
 Vtx arena_citadel_dl_DeathPlane_mesh_layer_5_vtx_0[4] = {
 	{{ {-7690, -5600, 7690}, 0, {-16, 1008}, {0, 127, 0, 255} }},
 	{{ {7690, -5600, 7690}, 0, {1008, 1008}, {0, 127, 0, 255} }},
@@ -2582,76 +2578,76 @@ Vtx arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_vtx_2[156] = {
 	{{ {2450, 0, -1100}, 0, {10115, 12080}, {169, 37, 79, 128} }},
 	{{ {1951, 0, -1100}, 0, {7365, 12080}, {183, 26, 79, 128} }},
 	{{ {2500, 0, -1100}, 0, {10391, 12080}, {194, 38, 79, 128} }},
-	{{ {3000, -100, -300}, 0, {502, 5213}, {78, 64, 4, 22} }},
-	{{ {3000, -100, 0}, 0, {923, 5213}, {94, 63, 4, 22} }},
-	{{ {2200, -100, 0}, 0, {923, 4091}, {94, 63, 133, 19} }},
-	{{ {3000, -100, -700}, 0, {-58, 5213}, {141, 65, 4, 22} }},
-	{{ {3000, -100, -1100}, 0, {-619, 5213}, {205, 66, 4, 22} }},
-	{{ {2200, -100, -1192}, 0, {-748, 4091}, {22, 67, 133, 19} }},
-	{{ {700, -100, -1192}, 0, {-748, 1989}, {22, 67, 215, 14} }},
+	{{ {3000, -100, -300}, 0, {383, 6404}, {78, 64, 4, 22} }},
+	{{ {3000, -100, 0}, 0, {923, 6404}, {94, 63, 4, 22} }},
+	{{ {2200, -100, 0}, 0, {923, 4965}, {94, 63, 133, 19} }},
+	{{ {3000, -100, -700}, 0, {-336, 6404}, {141, 65, 4, 22} }},
+	{{ {3000, -100, -1100}, 0, {-1056, 6404}, {205, 66, 4, 22} }},
+	{{ {2200, -100, -1192}, 0, {-1222, 4965}, {22, 67, 133, 19} }},
+	{{ {700, -100, -1192}, 0, {-1222, 2267}, {22, 67, 215, 14} }},
 	{{ {0, -100, 0}, 0, {923, 1008}, {94, 63, 168, 12} }},
-	{{ {-700, -100, 1192}, 0, {2594, 27}, {166, 59, 121, 10} }},
-	{{ {1400, -100, 1192}, 0, {2594, 2970}, {166, 59, 6, 17} }},
-	{{ {3600, -100, 1100}, 0, {2464, 6054}, {239, 59, 227, 23} }},
-	{{ {3100, -100, 0}, 0, {923, 5353}, {94, 63, 84, 22} }},
-	{{ {3600, -100, 1100}, 0, {2464, 6054}, {239, 59, 227, 23} }},
-	{{ {3100, -100, 0}, 0, {923, 5353}, {94, 63, 84, 22} }},
-	{{ {3600, -100, 500}, 0, {1623, 6054}, {207, 61, 227, 23} }},
-	{{ {1400, -100, 1192}, 0, {2594, 2970}, {166, 59, 6, 17} }},
-	{{ {2904, -100, 1796}, 0, {3440, 5078}, {195, 57, 183, 21} }},
-	{{ {1400, -100, 2313}, 0, {4165, 2970}, {38, 56, 6, 17} }},
-	{{ {2096, -100, 2604}, 0, {4572, 3946}, {62, 55, 50, 19} }},
-	{{ {1400, -100, 3300}, 0, {5548, 2970}, {18, 53, 6, 17} }},
-	{{ {800, -100, 3300}, 0, {5548, 2129}, {18, 53, 39, 15} }},
-	{{ {300, -100, 3300}, 0, {5548, 1428}, {18, 53, 152, 13} }},
-	{{ {-700, -100, 3300}, 0, {5548, 27}, {18, 53, 121, 10} }},
-	{{ {-700, -100, 2313}, 0, {4165, 27}, {38, 56, 121, 10} }},
-	{{ {-1500, -100, 3300}, 0, {5548, -1094}, {18, 53, 250, 7} }},
-	{{ {-2200, -100, 3300}, 0, {5548, -2075}, {18, 53, 203, 5} }},
-	{{ {-2200, -100, 2313}, 0, {4165, -2075}, {38, 56, 203, 5} }},
-	{{ {-3000, -100, 2500}, 0, {4427, -3197}, {145, 55, 76, 3} }},
-	{{ {-3000, -100, 2500}, 0, {4427, -3197}, {145, 55, 76, 3} }},
-	{{ {-2200, -100, 1192}, 0, {2594, -2075}, {166, 59, 203, 5} }},
-	{{ {-2200, -100, 2313}, 0, {4165, -2075}, {38, 56, 203, 5} }},
-	{{ {-3000, -100, 1900}, 0, {3586, -3197}, {112, 57, 76, 3} }},
-	{{ {-3000, -100, 1100}, 0, {2464, -3197}, {239, 59, 76, 3} }},
-	{{ {-2200, -100, 0}, 0, {923, -2075}, {94, 63, 203, 5} }},
-	{{ {-3000, -100, 700}, 0, {1904, -3197}, {47, 61, 76, 3} }},
-	{{ {-3000, -100, 300}, 0, {1343, -3197}, {110, 62, 76, 3} }},
-	{{ {-3000, -100, 0}, 0, {923, -3197}, {94, 63, 76, 3} }},
-	{{ {-700, -100, 1192}, 0, {2594, 27}, {166, 59, 121, 10} }},
-	{{ {-700, -100, 2313}, 0, {4165, 27}, {38, 56, 121, 10} }},
-	{{ {1400, -100, 1192}, 0, {2594, 2970}, {166, 59, 6, 17} }},
-	{{ {1400, -100, 2313}, 0, {4165, 2970}, {38, 56, 6, 17} }},
+	{{ {-700, -100, 1192}, 0, {3067, -251}, {166, 59, 121, 10} }},
+	{{ {1400, -100, 1192}, 0, {3067, 3526}, {166, 59, 6, 17} }},
+	{{ {3600, -100, 1100}, 0, {2901, 7484}, {239, 59, 227, 23} }},
+	{{ {3100, -100, 0}, 0, {923, 6584}, {94, 63, 84, 22} }},
+	{{ {3600, -100, 1100}, 0, {2901, 7484}, {239, 59, 227, 23} }},
+	{{ {3100, -100, 0}, 0, {923, 6584}, {94, 63, 84, 22} }},
+	{{ {3600, -100, 500}, 0, {1822, 7484}, {207, 61, 227, 23} }},
+	{{ {1400, -100, 1192}, 0, {3067, 3526}, {166, 59, 6, 17} }},
+	{{ {2904, -100, 1796}, 0, {4154, 6231}, {195, 57, 183, 21} }},
+	{{ {1400, -100, 2313}, 0, {5084, 3526}, {38, 56, 6, 17} }},
+	{{ {2096, -100, 2604}, 0, {5606, 4778}, {62, 55, 50, 19} }},
+	{{ {1400, -100, 3300}, 0, {6859, 3526}, {18, 53, 6, 17} }},
+	{{ {800, -100, 3300}, 0, {6859, 2447}, {18, 53, 39, 15} }},
+	{{ {300, -100, 3300}, 0, {6859, 1548}, {18, 53, 152, 13} }},
+	{{ {-700, -100, 3300}, 0, {6859, -251}, {18, 53, 121, 10} }},
+	{{ {-700, -100, 2313}, 0, {5084, -251}, {38, 56, 121, 10} }},
+	{{ {-1500, -100, 3300}, 0, {6859, -1690}, {18, 53, 250, 7} }},
+	{{ {-2200, -100, 3300}, 0, {6859, -2949}, {18, 53, 203, 5} }},
+	{{ {-2200, -100, 2313}, 0, {5084, -2949}, {38, 56, 203, 5} }},
+	{{ {-3000, -100, 2500}, 0, {5420, -4388}, {145, 55, 76, 3} }},
+	{{ {-3000, -100, 2500}, 0, {5420, -4388}, {145, 55, 76, 3} }},
+	{{ {-2200, -100, 1192}, 0, {3067, -2949}, {166, 59, 203, 5} }},
+	{{ {-2200, -100, 2313}, 0, {5084, -2949}, {38, 56, 203, 5} }},
+	{{ {-3000, -100, 1900}, 0, {4340, -4388}, {112, 57, 76, 3} }},
+	{{ {-3000, -100, 1100}, 0, {2901, -4388}, {239, 59, 76, 3} }},
+	{{ {-2200, -100, 0}, 0, {923, -2949}, {94, 63, 203, 5} }},
+	{{ {-3000, -100, 700}, 0, {2182, -4388}, {47, 61, 76, 3} }},
+	{{ {-3000, -100, 300}, 0, {1462, -4388}, {110, 62, 76, 3} }},
+	{{ {-3000, -100, 0}, 0, {923, -4388}, {94, 63, 76, 3} }},
+	{{ {-700, -100, 1192}, 0, {3067, -251}, {166, 59, 121, 10} }},
+	{{ {-700, -100, 2313}, 0, {5084, -251}, {38, 56, 121, 10} }},
+	{{ {1400, -100, 1192}, 0, {3067, 3526}, {166, 59, 6, 17} }},
+	{{ {1400, -100, 2313}, 0, {5084, 3526}, {38, 56, 6, 17} }},
 	{{ {0, -100, 0}, 0, {923, 1008}, {94, 63, 168, 12} }},
-	{{ {700, -100, -1192}, 0, {-748, 1989}, {22, 67, 215, 14} }},
-	{{ {-1400, -100, -1192}, 0, {-748, -954}, {22, 67, 74, 8} }},
-	{{ {-1400, -100, -1192}, 0, {-748, -954}, {22, 67, 74, 8} }},
-	{{ {-2200, -100, 0}, 0, {923, -2075}, {94, 63, 203, 5} }},
-	{{ {-3600, -100, -1100}, 0, {-619, -4038}, {205, 66, 109, 1} }},
-	{{ {-3100, -100, 0}, 0, {923, -3337}, {94, 63, 252, 2} }},
-	{{ {-3600, -100, -500}, 0, {222, -4038}, {237, 64, 109, 1} }},
-	{{ {-2904, -100, -1796}, 0, {-1595, -3062}, {249, 68, 153, 3} }},
-	{{ {-1400, -100, -2313}, 0, {-2319, -954}, {150, 70, 74, 8} }},
-	{{ {-2096, -100, -2604}, 0, {-2727, -1930}, {126, 71, 30, 6} }},
-	{{ {-1400, -100, -3300}, 0, {-3702, -954}, {170, 73, 74, 8} }},
-	{{ {-800, -100, -3300}, 0, {-3702, -113}, {170, 73, 41, 10} }},
-	{{ {-300, -100, -3300}, 0, {-3702, 588}, {170, 73, 184, 11} }},
-	{{ {700, -100, -3300}, 0, {-3702, 1989}, {170, 73, 215, 14} }},
-	{{ {700, -100, -2313}, 0, {-2319, 1989}, {150, 70, 215, 14} }},
-	{{ {1500, -100, -3300}, 0, {-3702, 3110}, {170, 73, 86, 17} }},
-	{{ {2200, -100, -3300}, 0, {-3702, 4091}, {170, 73, 133, 19} }},
-	{{ {2200, -100, -2313}, 0, {-2319, 4091}, {150, 70, 133, 19} }},
-	{{ {3000, -100, -2500}, 0, {-2581, 5213}, {43, 71, 4, 22} }},
-	{{ {2200, -100, -2313}, 0, {-2319, 4091}, {150, 70, 133, 19} }},
-	{{ {2200, -100, -3300}, 0, {-3702, 4091}, {170, 73, 133, 19} }},
-	{{ {2200, -100, -1192}, 0, {-748, 4091}, {22, 67, 133, 19} }},
-	{{ {3000, -100, -1900}, 0, {-1740, 5213}, {76, 69, 4, 22} }},
-	{{ {3000, -100, -1100}, 0, {-619, 5213}, {205, 66, 4, 22} }},
-	{{ {700, -100, -1192}, 0, {-748, 1989}, {22, 67, 215, 14} }},
-	{{ {700, -100, -2313}, 0, {-2319, 1989}, {150, 70, 215, 14} }},
-	{{ {-1400, -100, -1192}, 0, {-748, -954}, {22, 67, 74, 8} }},
-	{{ {-1400, -100, -2313}, 0, {-2319, -954}, {150, 70, 74, 8} }},
+	{{ {700, -100, -1192}, 0, {-1222, 2267}, {22, 67, 215, 14} }},
+	{{ {-1400, -100, -1192}, 0, {-1222, -1510}, {22, 67, 74, 8} }},
+	{{ {-1400, -100, -1192}, 0, {-1222, -1510}, {22, 67, 74, 8} }},
+	{{ {-2200, -100, 0}, 0, {923, -2949}, {94, 63, 203, 5} }},
+	{{ {-3600, -100, -1100}, 0, {-1056, -5468}, {205, 66, 109, 1} }},
+	{{ {-3100, -100, 0}, 0, {923, -4568}, {94, 63, 252, 2} }},
+	{{ {-3600, -100, -500}, 0, {23, -5468}, {237, 64, 109, 1} }},
+	{{ {-2904, -100, -1796}, 0, {-2308, -4215}, {249, 68, 153, 3} }},
+	{{ {-1400, -100, -2313}, 0, {-3238, -1510}, {150, 70, 74, 8} }},
+	{{ {-2096, -100, -2604}, 0, {-3761, -2762}, {126, 71, 30, 6} }},
+	{{ {-1400, -100, -3300}, 0, {-5013, -1510}, {170, 73, 74, 8} }},
+	{{ {-800, -100, -3300}, 0, {-5013, -431}, {170, 73, 41, 10} }},
+	{{ {-300, -100, -3300}, 0, {-5013, 468}, {170, 73, 184, 11} }},
+	{{ {700, -100, -3300}, 0, {-5013, 2267}, {170, 73, 215, 14} }},
+	{{ {700, -100, -2313}, 0, {-3238, 2267}, {150, 70, 215, 14} }},
+	{{ {1500, -100, -3300}, 0, {-5013, 3706}, {170, 73, 86, 17} }},
+	{{ {2200, -100, -3300}, 0, {-5013, 4965}, {170, 73, 133, 19} }},
+	{{ {2200, -100, -2313}, 0, {-3238, 4965}, {150, 70, 133, 19} }},
+	{{ {3000, -100, -2500}, 0, {-3574, 6404}, {43, 71, 4, 22} }},
+	{{ {2200, -100, -2313}, 0, {-3238, 4965}, {150, 70, 133, 19} }},
+	{{ {2200, -100, -3300}, 0, {-5013, 4965}, {170, 73, 133, 19} }},
+	{{ {2200, -100, -1192}, 0, {-1222, 4965}, {22, 67, 133, 19} }},
+	{{ {3000, -100, -1900}, 0, {-2495, 6404}, {76, 69, 4, 22} }},
+	{{ {3000, -100, -1100}, 0, {-1056, 6404}, {205, 66, 4, 22} }},
+	{{ {700, -100, -1192}, 0, {-1222, 2267}, {22, 67, 215, 14} }},
+	{{ {700, -100, -2313}, 0, {-3238, 2267}, {150, 70, 215, 14} }},
+	{{ {-1400, -100, -1192}, 0, {-1222, -1510}, {22, 67, 74, 8} }},
+	{{ {-1400, -100, -2313}, 0, {-3238, -1510}, {150, 70, 74, 8} }},
 	{{ {1000, 0, -300}, 0, {2125, 16488}, {247, 38, 88, 59} }},
 	{{ {500, 0, 700}, 0, {-630, 21998}, {124, 45, 180, 35} }},
 	{{ {1000, 0, -174}, 0, {2125, 17180}, {207, 40, 76, 57} }},
@@ -6705,10 +6701,9 @@ Gfx mat_revert_arena_citadel_dl_bright_002[] = {
 
 Gfx mat_arena_citadel_dl_rim_002[] = {
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
+	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT, 0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(arena_citadel_dl_rim_002_lights),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_set2_example_2_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_set2_bright_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -6716,7 +6711,7 @@ Gfx mat_arena_citadel_dl_rim_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6727,7 +6722,7 @@ Gfx mat_arena_citadel_dl_Material_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6735,14 +6730,14 @@ Gfx mat_arena_citadel_dl_Material_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_002_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_002_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6753,7 +6748,7 @@ Gfx mat_arena_citadel_dl_Material_002_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6761,14 +6756,14 @@ Gfx mat_arena_citadel_dl_Material_002_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_002_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_002_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_008_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_008_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6779,7 +6774,7 @@ Gfx mat_arena_citadel_dl_Material_008_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6787,14 +6782,14 @@ Gfx mat_arena_citadel_dl_Material_008_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_008_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_008_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_005_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_005_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6805,7 +6800,7 @@ Gfx mat_arena_citadel_dl_Material_005_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6813,14 +6808,14 @@ Gfx mat_arena_citadel_dl_Material_005_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_005_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_005_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_004_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_004_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6831,7 +6826,7 @@ Gfx mat_arena_citadel_dl_Material_004_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6839,14 +6834,14 @@ Gfx mat_arena_citadel_dl_Material_004_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_004_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_004_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_001_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_001_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6857,7 +6852,7 @@ Gfx mat_arena_citadel_dl_Material_001_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6865,14 +6860,14 @@ Gfx mat_arena_citadel_dl_Material_001_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_001_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_001_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_007_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_007_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6883,7 +6878,7 @@ Gfx mat_arena_citadel_dl_Material_007_f3d_002[] = {
 	gsDPLoadTile(7, 0, 0, 624, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 40, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 8, 0),
 	gsDPSetTileSize(0, 0, 0, 624, 256),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 2600, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 2600, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6891,14 +6886,14 @@ Gfx mat_arena_citadel_dl_Material_007_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_007_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_007_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_006_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_006_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6909,7 +6904,7 @@ Gfx mat_arena_citadel_dl_Material_006_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6917,14 +6912,14 @@ Gfx mat_arena_citadel_dl_Material_006_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_006_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_006_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_009_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_009_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6935,7 +6930,7 @@ Gfx mat_arena_citadel_dl_Material_009_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6943,14 +6938,14 @@ Gfx mat_arena_citadel_dl_Material_009_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_009_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_009_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_citadel_dl_Material_003_f3d_002[] = {
+Gfx mat_arena_citadel_dl_Material_003_f3d[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -6961,7 +6956,7 @@ Gfx mat_arena_citadel_dl_Material_003_f3d_002[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_citadel_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -6969,7 +6964,7 @@ Gfx mat_arena_citadel_dl_Material_003_f3d_002[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_citadel_dl_Material_003_f3d_002[] = {
+Gfx mat_revert_arena_citadel_dl_Material_003_f3d[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
@@ -6999,36 +6994,36 @@ Gfx arena_citadel_dl_GeoLights_mesh_layer_1[] = {
 };
 
 Gfx arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1[] = {
-	gsSPDisplayList(mat_arena_citadel_dl_Material_f3d_002),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_002_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_002_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_002_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_008_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_002_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_008_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_008_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_005_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_008_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_005_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_3),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_005_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_004_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_005_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_004_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_4),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_004_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_001_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_004_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_001_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_5),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_001_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_007_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_001_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_007_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_6),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_007_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_006_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_007_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_006_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_7),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_006_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_009_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_006_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_009_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_8),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_009_f3d_002),
-	gsSPDisplayList(mat_arena_citadel_dl_Material_003_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_009_f3d),
+	gsSPDisplayList(mat_arena_citadel_dl_Material_003_f3d),
 	gsSPDisplayList(arena_citadel_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_9),
-	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_003_f3d_002),
+	gsSPDisplayList(mat_revert_arena_citadel_dl_Material_003_f3d),
 	gsSPEndDisplayList(),
 };
 

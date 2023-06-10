@@ -3,9 +3,9 @@ u8 arena_platforms_dl_big_bricks_rgba16[] = {
 	#include "levels/arena_platforms/big_bricks.rgba16.inc.c"
 };
 
-Gfx arena_platforms_dl_LevelGeo_001_Bake1_CyclesBake_COMBINED_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_platforms_dl_LevelGeo_001_Bake1_CyclesBake_COMBINED_rgba16[] = {
-	#include "levels/arena_platforms/LevelGeo.001_Bake1_CyclesBake_COMBINED.rgba16.inc.c"
+Gfx arena_platforms_dl_lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_platforms_dl_lightmap_rgba16[] = {
+	#include "levels/arena_platforms/lightmap.rgba16.inc.c"
 };
 
 Gfx arena_platforms_dl_tile_rgba16_aligner[] = {gsSPEndDisplayList()};

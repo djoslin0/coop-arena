@@ -3,9 +3,9 @@ u8 arena_pillars_dl_worn_brick_rgba16[] = {
 	#include "levels/arena_pillars/worn_brick.rgba16.inc.c"
 };
 
-Gfx arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16[] = {
-	#include "levels/arena_pillars/LevelGeoMerged_Bake1_PBR_Lightmap.rgba16.inc.c"
+Gfx arena_pillars_dl_lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_pillars_dl_lightmap_rgba16[] = {
+	#include "levels/arena_pillars/lightmap.rgba16.inc.c"
 };
 
 Gfx arena_pillars_dl_dirty_cement_rgba16_aligner[] = {gsSPEndDisplayList()};

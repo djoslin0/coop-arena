@@ -3,9 +3,9 @@ u8 arena_forts_dl_dirt2_rgba16[] = {
 	#include "levels/arena_forts/dirt2.rgba16.inc.c"
 };
 
-Gfx arena_forts_dl_LevelGeometry_Bake1_PBR_Lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_forts_dl_LevelGeometry_Bake1_PBR_Lightmap_rgba16[] = {
-	#include "levels/arena_forts/LevelGeometry_Bake1_PBR_Lightmap.rgba16.inc.c"
+Gfx arena_forts_dl_lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_forts_dl_lightmap_rgba16[] = {
+	#include "levels/arena_forts/lightmap.rgba16.inc.c"
 };
 
 Gfx arena_forts_dl_grass2_rgba16_aligner[] = {gsSPEndDisplayList()};
@@ -63,8 +63,8 @@ u8 arena_forts_dl_worn_brick_rgba16[] = {
 	#include "levels/arena_forts/worn_brick.rgba16.inc.c"
 };
 
-Gfx arena_forts_dl_set2_example_2_rgba16_copy_aligner[] = {gsSPEndDisplayList()};
-u8 arena_forts_dl_set2_example_2_rgba16_copy[] = {
-	#include "levels/arena_forts/set2_example_2.rgba16.inc.c"
+Gfx arena_forts_dl_set2_bright_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_forts_dl_set2_bright_rgba16[] = {
+	#include "levels/arena_forts/set2_bright.rgba16.inc.c"
 };
 

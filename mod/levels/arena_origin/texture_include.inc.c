@@ -3,9 +3,9 @@ u8 arena_origin_dl_wood_floor_2_rgba16[] = {
 	#include "levels/arena_origin/wood_floor_2.rgba16.inc.c"
 };
 
-Gfx arena_origin_dl_Level_Merged_Bake1_PBR_Lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_origin_dl_Level_Merged_Bake1_PBR_Lightmap_rgba16[] = {
-	#include "levels/arena_origin/Level_Merged_Bake1_PBR_Lightmap.rgba16.inc.c"
+Gfx arena_origin_dl_lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_origin_dl_lightmap_rgba16[] = {
+	#include "levels/arena_origin/lightmap.rgba16.inc.c"
 };
 
 Gfx arena_origin_dl_trim_garbage_rgba16_aligner[] = {gsSPEndDisplayList()};
@@ -78,8 +78,8 @@ u8 arena_origin_dl_grate_rgba16[] = {
 	#include "levels/arena_origin/grate.rgba16.inc.c"
 };
 
-Gfx arena_origin_dl_set2_example_2_rgba16_copy_aligner[] = {gsSPEndDisplayList()};
-u8 arena_origin_dl_set2_example_2_rgba16_copy[] = {
-	#include "levels/arena_origin/set2_example_2.rgba16.inc.c"
+Gfx arena_origin_dl_set2_bright_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_origin_dl_set2_bright_rgba16[] = {
+	#include "levels/arena_origin/set2_bright.rgba16.inc.c"
 };
 

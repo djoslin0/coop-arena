@@ -3,9 +3,9 @@ u8 arena_sky_beach_dl_big_bricks_rgba16[] = {
 	#include "levels/arena_sky_beach/big_bricks.rgba16.inc.c"
 };
 
-Gfx arena_sky_beach_dl_LevelGeometry_Bake1_CyclesBake_COMBINED_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_sky_beach_dl_LevelGeometry_Bake1_CyclesBake_COMBINED_rgba16[] = {
-	#include "levels/arena_sky_beach/LevelGeometry_Bake1_CyclesBake_COMBINED.rgba16.inc.c"
+Gfx arena_sky_beach_dl_lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_sky_beach_dl_lightmap_rgba16[] = {
+	#include "levels/arena_sky_beach/lightmap.rgba16.inc.c"
 };
 
 Gfx arena_sky_beach_dl_cement_lines_rgba16_aligner[] = {gsSPEndDisplayList()};

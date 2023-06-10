@@ -1,7 +1,3 @@
-Lights1 arena_pillars_dl_rim_004_lights = gdSPDefLights1(
-	0x7F, 0x7F, 0x7F,
-	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
-
 Vtx arena_pillars_dl_z_level_mesh_layer_1_vtx_0[5640] = {
 	{{ {225, 683, 5075}, 0, {1247, 1805}, {155, 20, 114, 30} }},
 	{{ {188, 683, 5037}, 0, {1468, 2028}, {50, 20, 9, 30} }},
@@ -21125,7 +21121,7 @@ Gfx arena_pillars_dl_z_lights_mesh_layer_5_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_012_f3d_001[] = {
+Gfx mat_arena_pillars_dl_Material_012_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21136,7 +21132,7 @@ Gfx mat_arena_pillars_dl_Material_012_f3d_001[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21144,14 +21140,14 @@ Gfx mat_arena_pillars_dl_Material_012_f3d_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_012_f3d_001[] = {
+Gfx mat_revert_arena_pillars_dl_Material_012_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_004_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_004_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21162,7 +21158,7 @@ Gfx mat_arena_pillars_dl_Material_004_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21170,14 +21166,14 @@ Gfx mat_arena_pillars_dl_Material_004_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_004_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_004_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_006_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_006_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21188,7 +21184,7 @@ Gfx mat_arena_pillars_dl_Material_006_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21196,14 +21192,14 @@ Gfx mat_arena_pillars_dl_Material_006_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_006_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_006_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_007_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_007_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21214,7 +21210,7 @@ Gfx mat_arena_pillars_dl_Material_007_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21222,14 +21218,14 @@ Gfx mat_arena_pillars_dl_Material_007_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_007_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_007_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_008_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_008_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21240,7 +21236,7 @@ Gfx mat_arena_pillars_dl_Material_008_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21248,14 +21244,14 @@ Gfx mat_arena_pillars_dl_Material_008_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_008_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_008_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_009_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_009_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21266,7 +21262,7 @@ Gfx mat_arena_pillars_dl_Material_009_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21274,14 +21270,14 @@ Gfx mat_arena_pillars_dl_Material_009_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_009_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_009_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_010_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_010_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21292,7 +21288,7 @@ Gfx mat_arena_pillars_dl_Material_010_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21300,14 +21296,14 @@ Gfx mat_arena_pillars_dl_Material_010_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_010_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_010_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_003_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_003_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21318,7 +21314,7 @@ Gfx mat_arena_pillars_dl_Material_003_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21326,14 +21322,14 @@ Gfx mat_arena_pillars_dl_Material_003_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_003_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_003_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_015_f3d_001[] = {
+Gfx mat_arena_pillars_dl_Material_015_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21344,7 +21340,7 @@ Gfx mat_arena_pillars_dl_Material_015_f3d_001[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21352,14 +21348,14 @@ Gfx mat_arena_pillars_dl_Material_015_f3d_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_015_f3d_001[] = {
+Gfx mat_revert_arena_pillars_dl_Material_015_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_013_f3d_001[] = {
+Gfx mat_arena_pillars_dl_Material_013_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21370,7 +21366,7 @@ Gfx mat_arena_pillars_dl_Material_013_f3d_001[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21378,14 +21374,14 @@ Gfx mat_arena_pillars_dl_Material_013_f3d_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_013_f3d_001[] = {
+Gfx mat_revert_arena_pillars_dl_Material_013_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_014_f3d_001[] = {
+Gfx mat_arena_pillars_dl_Material_014_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21396,7 +21392,7 @@ Gfx mat_arena_pillars_dl_Material_014_f3d_001[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21404,14 +21400,14 @@ Gfx mat_arena_pillars_dl_Material_014_f3d_001[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_014_f3d_001[] = {
+Gfx mat_revert_arena_pillars_dl_Material_014_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_pillars_dl_Material_011_f3d_008[] = {
+Gfx mat_arena_pillars_dl_Material_011_f3d_004[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -21422,7 +21418,7 @@ Gfx mat_arena_pillars_dl_Material_011_f3d_008[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_LevelGeoMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -21430,7 +21426,7 @@ Gfx mat_arena_pillars_dl_Material_011_f3d_008[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_pillars_dl_Material_011_f3d_008[] = {
+Gfx mat_revert_arena_pillars_dl_Material_011_f3d_004[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
@@ -21439,9 +21435,8 @@ Gfx mat_revert_arena_pillars_dl_Material_011_f3d_008[] = {
 
 Gfx mat_arena_pillars_dl_rim_004[] = {
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
+	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT, 0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsSPSetLights1(arena_pillars_dl_rim_004_lights),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_pillars_dl_set2_example_2_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
@@ -21479,42 +21474,42 @@ Gfx mat_revert_arena_pillars_dl_bloom_004[] = {
 };
 
 Gfx arena_pillars_dl_z_level_mesh_layer_1[] = {
-	gsSPDisplayList(mat_arena_pillars_dl_Material_012_f3d_001),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_012_f3d_005),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_012_f3d_001),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_004_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_012_f3d_005),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_004_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_004_f3d_008),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_006_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_004_f3d_004),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_006_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_006_f3d_008),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_007_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_006_f3d_004),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_007_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_3),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_007_f3d_008),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_008_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_007_f3d_004),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_008_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_4),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_008_f3d_008),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_009_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_008_f3d_004),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_009_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_5),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_009_f3d_008),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_010_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_009_f3d_004),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_010_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_6),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_010_f3d_008),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_003_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_010_f3d_004),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_003_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_7),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_003_f3d_008),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_015_f3d_001),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_003_f3d_004),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_015_f3d_005),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_8),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_015_f3d_001),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_013_f3d_001),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_015_f3d_005),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_013_f3d_005),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_9),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_013_f3d_001),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_014_f3d_001),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_013_f3d_005),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_014_f3d_005),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_10),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_014_f3d_001),
-	gsSPDisplayList(mat_arena_pillars_dl_Material_011_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_014_f3d_005),
+	gsSPDisplayList(mat_arena_pillars_dl_Material_011_f3d_004),
 	gsSPDisplayList(arena_pillars_dl_z_level_mesh_layer_1_tri_11),
-	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_011_f3d_008),
+	gsSPDisplayList(mat_revert_arena_pillars_dl_Material_011_f3d_004),
 	gsSPEndDisplayList(),
 };
 

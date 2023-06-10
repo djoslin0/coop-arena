@@ -8,9 +8,9 @@ u8 arena_spire_dl_rock_wall_06_rgba16[] = {
 	#include "levels/arena_spire/rock_wall_06.rgba16.inc.c"
 };
 
-Gfx arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16[] = {
-	#include "levels/arena_spire/LevelGeometryMerged_Bake1_PBR_Lightmap.rgba16.inc.c"
+Gfx arena_spire_dl_lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_spire_dl_lightmap_rgba16[] = {
+	#include "levels/arena_spire/lightmap.rgba16.inc.c"
 };
 
 Gfx arena_spire_dl_wood_planks_5_rgba16_aligner[] = {gsSPEndDisplayList()};

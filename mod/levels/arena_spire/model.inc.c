@@ -12616,7 +12616,7 @@ Gfx mat_arena_spire_dl_rim[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_047_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_047_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12627,7 +12627,7 @@ Gfx mat_arena_spire_dl_Material_047_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12635,14 +12635,14 @@ Gfx mat_arena_spire_dl_Material_047_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_047_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_047_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_049_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_049_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12653,7 +12653,7 @@ Gfx mat_arena_spire_dl_Material_049_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12661,14 +12661,14 @@ Gfx mat_arena_spire_dl_Material_049_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_049_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_049_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_048_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_048_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12679,7 +12679,7 @@ Gfx mat_arena_spire_dl_Material_048_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12687,14 +12687,14 @@ Gfx mat_arena_spire_dl_Material_048_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_048_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_048_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_054_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_054_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12705,7 +12705,7 @@ Gfx mat_arena_spire_dl_Material_054_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12713,14 +12713,14 @@ Gfx mat_arena_spire_dl_Material_054_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_054_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_054_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_046_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_046_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12731,7 +12731,7 @@ Gfx mat_arena_spire_dl_Material_046_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12739,14 +12739,14 @@ Gfx mat_arena_spire_dl_Material_046_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_046_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_046_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_044_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_044_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12757,7 +12757,7 @@ Gfx mat_arena_spire_dl_Material_044_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 4095, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 252),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 1024, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 1024, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12765,14 +12765,14 @@ Gfx mat_arena_spire_dl_Material_044_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_044_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_044_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_053_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_053_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12783,7 +12783,7 @@ Gfx mat_arena_spire_dl_Material_053_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12791,14 +12791,14 @@ Gfx mat_arena_spire_dl_Material_053_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_053_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_053_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_045_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_045_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12809,7 +12809,7 @@ Gfx mat_arena_spire_dl_Material_045_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 65535, 32),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 64, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 8, 0, G_TX_WRAP | G_TX_NOMIRROR, 8, 0),
 	gsDPSetTileSize(0, 0, 0, 1020, 1020),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 16384, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 16384, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12817,14 +12817,14 @@ Gfx mat_arena_spire_dl_Material_045_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_045_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_045_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_050_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_050_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12835,7 +12835,7 @@ Gfx mat_arena_spire_dl_Material_050_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12843,14 +12843,14 @@ Gfx mat_arena_spire_dl_Material_050_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_050_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_050_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_043_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_043_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12861,7 +12861,7 @@ Gfx mat_arena_spire_dl_Material_043_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 13183, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 408),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 3296, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 3296, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12869,14 +12869,14 @@ Gfx mat_arena_spire_dl_Material_043_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_043_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_043_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_arena_spire_dl_Material_056_f3d_003[] = {
+Gfx mat_arena_spire_dl_Material_056_f3d_005[] = {
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1, TEXEL0, 0, TEXEL1, 0, 0, 0, 0, 1),
 	gsSPSetGeometryMode(G_LIGHT_MAP_EXT),
@@ -12887,7 +12887,7 @@ Gfx mat_arena_spire_dl_Material_056_f3d_003[] = {
 	gsDPLoadBlock(7, 0, 0, 16383, 64),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 32, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 508),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, arena_spire_dl_lightmap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 4096, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(6, 0, 0, 1048575, 8),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 256, 4096, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0, G_TX_WRAP | G_TX_NOMIRROR, 10, 0),
@@ -12895,7 +12895,7 @@ Gfx mat_arena_spire_dl_Material_056_f3d_003[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_arena_spire_dl_Material_056_f3d_003[] = {
+Gfx mat_revert_arena_spire_dl_Material_056_f3d_005[] = {
 	gsDPPipeSync(),
 	gsSPClearGeometryMode(G_LIGHT_MAP_EXT),
 	gsSPSetGeometryMode(G_LIGHTING),
@@ -12925,39 +12925,39 @@ Gfx arena_spire_dl_GeoLights_mesh_layer_1[] = {
 };
 
 Gfx arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1[] = {
-	gsSPDisplayList(mat_arena_spire_dl_Material_047_f3d_003),
+	gsSPDisplayList(mat_arena_spire_dl_Material_047_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_047_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_049_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_047_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_049_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_1),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_049_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_048_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_049_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_048_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_2),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_048_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_054_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_048_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_054_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_3),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_054_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_046_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_054_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_046_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_4),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_046_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_044_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_046_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_044_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_5),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_044_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_053_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_044_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_053_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_6),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_053_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_045_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_053_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_045_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_7),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_045_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_050_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_045_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_050_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_8),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_050_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_043_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_050_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_043_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_9),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_043_f3d_003),
-	gsSPDisplayList(mat_arena_spire_dl_Material_056_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_043_f3d_005),
+	gsSPDisplayList(mat_arena_spire_dl_Material_056_f3d_005),
 	gsSPDisplayList(arena_spire_dl_LevelGeometryMerged_001_mapped_mesh_layer_1_tri_10),
-	gsSPDisplayList(mat_revert_arena_spire_dl_Material_056_f3d_003),
+	gsSPDisplayList(mat_revert_arena_spire_dl_Material_056_f3d_005),
 	gsSPEndDisplayList(),
 };
 

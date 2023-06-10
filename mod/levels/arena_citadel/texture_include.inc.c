@@ -1,6 +1,6 @@
-Gfx arena_citadel_dl_set2_example_2_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_citadel_dl_set2_example_2_rgba16[] = {
-	#include "levels/arena_citadel/set2_example_2.rgba16.inc.c"
+Gfx arena_citadel_dl_set2_bright_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_citadel_dl_set2_bright_rgba16[] = {
+	#include "levels/arena_citadel/set2_bright.rgba16.inc.c"
 };
 
 Gfx arena_citadel_dl_Brick_16_128x128_rgba16_aligner[] = {gsSPEndDisplayList()};
@@ -8,9 +8,9 @@ u8 arena_citadel_dl_Brick_16_128x128_rgba16[] = {
 	#include "levels/arena_citadel/Brick_16_128x128.rgba16.inc.c"
 };
 
-Gfx arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 arena_citadel_dl_LevelGeometryMerged_Bake1_PBR_Lightmap_rgba16[] = {
-	#include "levels/arena_citadel/LevelGeometryMerged_Bake1_PBR_Lightmap.rgba16.inc.c"
+Gfx arena_citadel_dl_lightmap_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 arena_citadel_dl_lightmap_rgba16[] = {
+	#include "levels/arena_citadel/lightmap.rgba16.inc.c"
 };
 
 Gfx arena_citadel_dl_Brick_25___128x128_rgba16_aligner[] = {gsSPEndDisplayList()};
